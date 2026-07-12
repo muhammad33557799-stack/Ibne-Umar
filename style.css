@@ -32,7 +32,7 @@ a {
 .hero-section {
   background:
     linear-gradient(rgba(253, 251, 247, 0.65), rgba(253, 251, 247, 0.4)),
-    url("./website/ChatGPT\ Image\ May\ 20\,\ 2026\,\ 11_15_28\ PM.png");
+    url("images/Home\ page\ hero\ section.png");
   background-size: cover;
   background-position: center right;
   min-height: 75vh;
