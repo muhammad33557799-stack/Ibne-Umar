@@ -1,0 +1,393 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./about.css" />
+  </head>
+
+  <body>
+    <header class="hero-section">
+      <!-- 1. NAVBAR -->
+      <nav class="navbar">
+        <!-- DEXTOP NAVBAR -->
+        <div class="nav-container">
+          <a href="index.html" class="logo">
+            <img
+              src="./images/logo.png"
+              alt="Institute logo"
+              class="nav-logo-img"
+            />
+            <div class="logo-text-group">
+              <span class="logo-en-main">Jamia</span>
+              <span class="logo-en-sub">Abdullah Bin Umar</span>
+              <span class="logo-ar">جامعہ عبداللہ بن عمر</span>
+            </div>
+          </a>
+
+          <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#" class="active">About Us</a></li>
+            <li><a href="index.html#program">Programs</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+            <li><a href="magazine.html">Ilm-o-Amal</a></li>
+          </ul>
+
+          <div class="nav-actions">
+            <select class="lang-select">
+              <option>EN</option>
+              <option>UR</option>
+            </select>
+            <a href="https://wa.me/923034029111" class="btn-hover btn-whatsapp"
+              ><i class="fa-brands fa-whatsapp"></i> WhatsApp</a
+            >
+            <a href="#" class="btn-hover btn-donate">Donate Now</a>
+          </div>
+          <button
+            class="hamburger-btn"
+            id="hamburgerBtn"
+            aria-label="Toggle menu"
+          >
+            <i class="fa-solid fa-bars"></i>
+          </button>
+        </div>
+        <!-- MOBILE NAVBAR -->
+        <div class="mobile-menu" id="mobileMenu">
+          <ul class="mobile-nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#" class="active">About Us</a></li>
+            <li><a href="index.html#program">Programs</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+            <li><a href="magazine.html">Ilm-o-Amal</a></li>
+          </ul>
+          <div class="mobile-actions">
+            <a href="https://wa.me/923034029111" class="btn-hover btn-whatsapp"
+              ><i class="fa-brands fa-whatsapp"></i> WhatsApp</a
+            >
+            <a href="#" class="btn-hover btn-donate">Donate Now</a>
+          </div>
+        </div>
+      </nav>
+      <!-- ===================== SPLIT PAGE HERO ===================== -->
+      <section class="page-hero" id="about-hero">
+        <!-- IMAGE FIRST in DOM so mobile CSS order:1 places it on top -->
+        <div class="hero-image-side">
+          <img
+            src="../images/masjid1.png"
+            alt="Jamia Abdullah Bin Umar Mosque and Campus"
+          />
+        </div>
+        <div class="hero-text-side">
+          <div class="hero-breadcrumb">
+            <a href="index.html"><i class="fa-solid fa-house"></i> Home</a>
+            <i class="fa-solid fa-chevron-right sep"></i>
+            <span>About Us</span>
+          </div>
+          <h1 class="page-hero-heading">
+            Over Three Decades of Knowledge, Character and Spiritual Excellence
+          </h1>
+          <p class="page-hero-subtext">
+            Jamia Abdullah Bin Umar has been dedicated to nurturing scholars,
+            developing character and serving the Ummah through authentic Islamic
+            education.
+          </p>
+          <a href="#" class="btn-hover btn-apply">
+            Discover Our Journey <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+      </section>
+    </header>
+    <!-- ===================== MISSION, VISION, TARBIYAH CARDS ===================== -->
+    <section class="mvt-section">
+      <div class="mvt-header">
+        <span class="section-tag">WHAT WE STAND FOR</span>
+        <h2 class="mvt-heading">Our Mission, Vision &amp; Values</h2>
+        <p class="mvt-subtitle">
+          Three pillars that define everything we do — from how we teach to how
+          we nurture the hearts of every student in our care.
+        </p>
+      </div>
+
+      <div class="mvt-grid">
+        <div class="mvt-card mvt-card--mission">
+          <div class="mvt-icon"><i class="fa-solid fa-bullseye"></i></div>
+          <h3>Our Mission</h3>
+          <p>
+            To provide authentic Islamic education and tarbiyah that produces
+            righteous scholars and responsible citizens who are firmly anchored
+            in Quran and Sunnah.
+          </p>
+        </div>
+
+        <div class="mvt-card mvt-card--vision">
+          <div class="mvt-icon"><i class="fa-solid fa-eye"></i></div>
+          <h3>Our Vision</h3>
+          <p>
+            To be a leading centre of Islamic learning, spiritual development,
+            and character building in Pakistan — a model institution for Islamic
+            education worldwide.
+          </p>
+        </div>
+
+        <div class="mvt-card mvt-card--tarbiyah">
+          <div class="mvt-icon"><i class="fa-solid fa-heart"></i></div>
+          <h3>Our Tarbiyah</h3>
+          <p>
+            We focus on building strong Imaan, noble character, and a lifelong
+            commitment to Islamic values — nurturing the full human being, not
+            just the student.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- ===================== HISTORY & STORY SECTION ===================== -->
+    <section class="about-story-section">
+      <div class="about-story-container">
+        <div class="about-story-image-col">
+          <div class="story-image-wrapper">
+            <img
+              src="./images/Bulding pic.png"
+              alt="Jamia Abdullah Bin Umar Campus"
+              class="story-img"
+            />
+            <div class="story-badge">
+              <span class="badge-year">Est.</span>
+              <span class="badge-num">1994</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-story-text-col">
+          <span class="section-tag">OUR STORY</span>
+          <h2 class="story-heading">A Legacy of Knowledge &amp; Faith</h2>
+          <p class="story-text">
+            Jamia Abdullah Bin Umar was founded in 1994 with a singular vision:
+            to provide the Muslim community of Lahore — and beyond — with an
+            institution that blends the depth of traditional Islamic scholarship
+            with the discipline and rigour of modern academic learning.
+          </p>
+          <p class="story-text">
+            Named after the great Companion of the Prophet ﷺ, Abdullah ibn Umar
+            (رضي الله عنه), known for his steadfast adherence to the Sunnah, the
+            Jamia carries his legacy in its culture, curriculum, and character.
+            Every student who walks through these doors is guided to not only
+            acquire knowledge, but to embody it.
+          </p>
+          <p class="story-text">
+            Over three decades, we have produced hundreds of graduates who serve
+            as Huffaz, Ulama, teachers, and community leaders across Pakistan
+            and internationally.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- ===================== FACULTY SECTION ===================== -->
+    <section class="faculty-section" id="faculty">
+      <div class="faculty-header">
+        <span class="section-tag">OUR FACULTY</span>
+        <h2 class="faculty-heading">Learn From Authentic Scholars</h2>
+        <p class="faculty-subtitle">
+          Our dedicated faculty brings together decades of knowledge, spiritual
+          depth, and a genuine commitment to nurturing the next generation.
+        </p>
+      </div>
+
+      <!-- Featured Principal/Founder Card -->
+      <div class="faculty-featured">
+        <div class="faculty-card faculty-card--principal">
+          <div class="faculty-badge">Founder</div>
+          <div class="faculty-avatar">
+            <i class="fa-solid fa-user-tie"></i>
+          </div>
+          <h3>Sufi Muhammad Sarwar</h3>
+          <span class="faculty-role">Founder of this institute</span>
+          <p>
+            Over 25 years of experience in Islamic jurisprudence, Hadith
+            sciences, and academic leadership. Dedicated to nurturing the next
+            generation of scholars with integrity and wisdom.
+          </p>
+        </div>
+      </div>
+
+      <!-- Regular Faculty Grid -->
+      <div class="faculty-grid">
+        <div class="faculty-card">
+          <div class="faculty-avatar">
+            <i class="fa-solid fa-user-tie"></i>
+          </div>
+          <h3>Muhammad Ateeq Ur Rahman</h3>
+          <span class="faculty-role">Principle</span>
+          <p>
+            A certified Qari with Ijazah in Tajweed, dedicated to producing
+            Huffaz with excellence in recitation.
+          </p>
+        </div>
+
+        <div class="faculty-card">
+          <div class="faculty-avatar">
+            <i class="fa-solid fa-user-tie"></i>
+          </div>
+          <h3>Mufti Muhammad Naveed</h3>
+          <span class="faculty-role">Head Dar ul Ifta</span>
+          <p>
+            Specialist in classical Arabic grammar and literature, making the
+            language accessible and inspiring for all students.
+          </p>
+        </div>
+
+        <div class="faculty-card">
+          <div class="faculty-avatar">
+            <i class="fa-solid fa-user-tie"></i>
+          </div>
+          <h3>Muhammad Umar Farooq</h3>
+          <span class="faculty-role">Senior Teacher</span>
+          <p>
+            An expert in Islamic theology and Quranic exegesis, guiding students
+            toward clarity of faith and understanding.
+          </p>
+        </div>
+
+        <div class="faculty-card">
+          <div class="faculty-avatar">
+            <i class="fa-solid fa-user-tie"></i>
+          </div>
+          <h3>Muhammad Tayyab Ilyas</h3>
+          <span class="faculty-role">Senior Teacher</span>
+          <p>
+            An expert in Hadith methodology and jurisprudence, with over 12
+            years of experience teaching classical texts.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- ===================== CTA / DONATION SECTION ===================== -->
+    <section class="donation-section">
+      <div class="donation-container">
+        <div class="donation-info-side">
+          <span class="donation-tag">SUPPORT ISLAMIC EDUCATION</span>
+          <h2 class="donation-heading">
+            Invest in Knowledge, Earn Eternal Rewards.
+          </h2>
+          <p class="donation-description">
+            Your support helps students receive quality Islamic education,
+            accommodation, meals, and resources. Be a part of this noble cause
+            and build a better future for our Ummah.
+          </p>
+          <button class="btn-hover donation-main-btn">
+            Support a Student <i class="fa-regular fa-heart"></i>
+          </button>
+        </div>
+
+        <div class="donation-cards-side">
+          <div class="d-card">
+            <div class="d-card-icon">
+              <i class="fa-solid fa-user-graduate"></i>
+            </div>
+            <h3>Sponsor a Student</h3>
+            <p>
+              Monthly support for a student's education and living expenses.
+            </p>
+            <div class="btn-hover d-amount">Rs. 5,000 / Month</div>
+          </div>
+          <div class="d-card">
+            <div class="d-card-icon"><i class="fa-solid fa-mosque"></i></div>
+            <h3>Build for the Future</h3>
+            <p>
+              Contribute to infrastructure and facility development projects.
+            </p>
+            <div class="btn-hover d-amount">Any Amount</div>
+          </div>
+          <div class="d-card">
+            <div class="d-card-icon">
+              <i class="fa-solid fa-hand-holding-heart"></i>
+            </div>
+            <h3>General Donation</h3>
+            <p>
+              Support overall operational needs and educational initiatives.
+            </p>
+            <div class="btn-hover d-amount">Any Amount</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== FOOTER (same as index.html) ===================== -->
+    <footer class="main-footer">
+      <div class="footer-container">
+        <div class="footer-column about-widget">
+          <div class="footer-logo">
+            <h3 class="footer-logo-text">جامعہ عبداللہ بن عمر</h3>
+          </div>
+          <p class="footer-about-text">
+            An institution dedicated to reviving prophetic knowledge, nurturing
+            moral character, and developing leaders rooted in Islamic values and
+            academic excellence.
+          </p>
+          <div class="footer-socials">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://wa.me/923034029111"
+              ><i class="fa-brands fa-whatsapp"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="footer-column">
+          <h4 class="footer-widget-title">Quick Links</h4>
+          <ul class="footer-links-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Jamia</a></li>
+            <li><a href="#faculty">Our Faculty</a></li>
+            <li><a href="#">Latest News</a></li>
+            <li><a href="index.html#contact">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-column">
+          <h4 class="footer-widget-title">Our Programs</h4>
+          <ul class="footer-links-list">
+            <li><a href="index.html#program">Dars-e-Nizami</a></li>
+            <li><a href="index.html#program">Hifz-ul-Quran</a></li>
+            <li><a href="index.html#program">Tajweed &amp; Qirat</a></li>
+            <li><a href="index.html#program">Short Islamic Courses</a></li>
+            <li><a href="index.html#program">Online Classes</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-column">
+          <h4 class="footer-widget-title">Office Hours</h4>
+          <ul class="footer-contact-summary">
+            <li>
+              <i class="fa-regular fa-clock"></i> Mon - Sat: 8:00 AM - 4:00 PM
+            </li>
+            <li><i class="fa-regular fa-calendar"></i> Sunday: Closed</li>
+            <li><i class="fa-solid fa-headset"></i> Support: 24/7 Available</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom-bar">
+        <div class="footer-bottom-container">
+          <p>&copy; 2026 Jamia Abdullah Bin Umar. All Rights Reserved.</p>
+          <div class="footer-bottom-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./index.js"></script>
+  </body>
+</html>
